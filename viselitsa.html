@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <title>Виселица</title>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(e){
+   var left = 0,
+   top = 0,
+   element = $('html'),
+   offset =  { left: element.offset().left, top: element.offset().top };
+   element.bind('mousemove', function(e){
+      left = (e.pageX-offset.left);
+      top = (e.pageY-offset.top);
+      $(this).css({
+          backgroundPosition: '-'+(0.02*left)+'px -'+(0.02*top)+'px'
+          
+      });
+    });
+});
+</script>
+
+ </head>
+ <body>
+
+
+<div class ="background">
+
+<div id="human"></div>
+
+<div id="output"><div class="word"><h3 id="numers">   </h2></div></div> 
+
+   <div id="buttons">
+
+	<input type="button" id="а" value = "А" onclick="myFunction(this.id)">
+    <input type="button" id="б" value = "Б" onclick="myFunction(this.id)">
+    <input type="button" id="в" value = "В" onclick="myFunction(this.id)">	
+    <input type="button" id="г" value = "Г" onclick="myFunction(this.id)">
+    
+    <input type="button" id="д" value = "Д" onclick="myFunction(this.id)">
+    
+    <input type="button" id="е" value = "Е" onclick="myFunction(this.id)">
+    <input type="button" id="ж" value = "Ж" onclick="myFunction(this.id)">
+    <input type="button" id="з" value = "З" onclick="myFunction(this.id)">
+
+    <input type="button" id="и" value = "И" onclick="myFunction(this.id)">
+    <input type="button" id="й" value = "Й" onclick="myFunction(this.id)">
+    <input type="button" id="к" value = "К" onclick="myFunction(this.id)">  
+    <input type="button" id="л" value = "Л" onclick="myFunction(this.id)">
+    
+    <input type="button" id="м" value = "М" onclick="myFunction(this.id)">
+    
+    <input type="button" id="н" value = "Н" onclick="myFunction(this.id)">
+    <input type="button" id="о" value = "О" onclick="myFunction(this.id)">
+    <input type="button" id="п" value = "П" onclick="myFunction(this.id)">
+
+
+    <input type="button" id="р" value = "Р" onclick="myFunction(this.id)">
+    <input type="button" id="с" value = "С" onclick="myFunction(this.id)">
+    <input type="button" id="т" value = "Т" onclick="myFunction(this.id)">  
+    <input type="button" id="у" value = "У" onclick="myFunction(this.id)">
+    
+    <input type="button" id="ф" value = "Ф" onclick="myFunction(this.id)">
+    
+    <input type="button" id="х" value = "Х" onclick="myFunction(this.id)">
+    <input type="button" id="ц" value = "Ц" onclick="myFunction(this.id)">
+    <input type="button" id="ч" value = "Ч" onclick="myFunction(this.id)">
+
+
+    <input type="button" id="ш" value = "Ш" onclick="myFunction(this.id)">
+    <input type="button" id="щ" value = "Щ" onclick="myFunction(this.id)">
+    <input type="button" id="ъ" value = "Ъ" onclick="myFunction(this.id)">  
+    <input type="button" id="ы" value = "Ы" onclick="myFunction(this.id)">
+    
+    <input type="button" id="ь" value = "Ь" onclick="myFunction(this.id)">
+    
+    <input type="button" id="э" value = "Э" onclick="myFunction(this.id)">
+    <input type="button" id="ю" value = "Ю" onclick="myFunction(this.id)">
+    <input type="button" id="я" value = "Я" onclick="myFunction(this.id)">
+    
+
+
+</div>
+
+
+
+</body>
+</html>

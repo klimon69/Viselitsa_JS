@@ -1,0 +1,112 @@
+@font-face {
+
+     font-family: myfont;
+     src: url(epsil.ttf); 
+    
+}
+
+
+
+html {
+
+      background: url(bg_wood.jpg) no-repeat center center fixed;         /*ЭТО ШЕДЕЕЕЕЕЕЕЕЕЕЕЕВР*/
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+
+.background{          
+
+     width: 1200px;
+     height: 900px;
+     background: url(shit.png);
+     background-size: cover;
+     margin: 0 auto;
+     margin-top: 100px;
+     position: relative;
+
+}
+
+
+#human{   
+
+     top: 335px;              
+     width: 300px;
+     height: 400px;
+     left: 140px;
+     background: url(pers_start.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     position: relative;
+     font-family: cursive;
+     font-size: 55px;
+     color: black;
+     
+     
+
+}
+
+
+
+#output{      
+
+     top: 150px;
+     width: 800px;
+     height: 100px;
+     margin-left: 200px;
+     position: absolute;
+     text-align: center;
+    
+}
+
+
+.word{
+
+
+     font-family: myfont;
+     font-size: 55px;
+     letter-spacing: 35px;
+
+
+
+}
+
+
+#buttons{    
+
+     width: 650px;
+     height: 350px;
+     position: absolute;
+     bottom: 120px;
+     right: 70px;
+
+
+}
+
+
+
+
+
+#buttons input{
+
+
+    
+  margin: 5px;
+     font-family: myfont;
+     font-size: 42px;
+     width: 60px;
+     height: 60px;
+     border-radius: 100%; 
+     border: 2px solid rgba(0, 0, 0, 0.7);
+     background-color:  rgba(255, 255, 255, 0);
+
+
+
+}
+
+
+
+
+
